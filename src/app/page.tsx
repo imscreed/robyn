@@ -15,7 +15,7 @@ export default function Home() {
         >
           Hello World,{" "}
           <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-yellow-500 bg-clip-text text-transparent">
-            I'm Robyn
+            I&apos;m Robyn
           </span>
         </motion.h1>
       </div>

@@ -4,7 +4,6 @@ import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Sidebar } from "./Sidebar";
 import { TopBar } from "./TopBar";
-import { cn } from "@/lib/utils";
 import type { LayoutProps } from "@/types";
 
 export function Layout({ children }: LayoutProps) {

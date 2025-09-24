@@ -2,7 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-import { Search, Bell, Settings, User, Menu, Sun, Moon } from "lucide-react";
+import { Search, Bell, Settings, User, Menu, Sun } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 interface TopBarProps {
@@ -10,7 +10,7 @@ interface TopBarProps {
   isMenuCollapsed: boolean;
 }
 
-export function TopBar({ onMenuToggle, isMenuCollapsed }: TopBarProps) {
+export function TopBar({ onMenuToggle }: TopBarProps) {
   return (
     <motion.header
       initial={{ y: -20, opacity: 0 }}

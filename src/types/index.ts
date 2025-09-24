@@ -18,3 +18,6 @@ export interface User {
 export interface LayoutProps {
   children: React.ReactNode;
 }
+
+// Re-export chat types for convenience
+export * from './chat';
